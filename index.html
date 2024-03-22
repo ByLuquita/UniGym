@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniGym</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+       
+        body {
+            background-color: #f0f0f0;
+        }
+        .navbar {
+            background-color: darkblue;
+            color: #fff;
+        }
+        .navbar-brand {
+            font-size: 24px;
+        }
+        .nav-link {
+            color: #fff !important;
+            font-weight: bold;
+        }
+        .carousel-inner {
+            text-align: center;
+        }
+        .carousel-item img {
+            max-height: 400px;
+        }
+        h2 {
+            color: #333;
+        }
+        .card {
+            border: none;
+        }
+        .card-title {
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #ff5722;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #e64a19;
+        }
+        #contato {
+            background-color: darkblue;
+            color: #fff;
+        }
+        #contato h2 {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-darkblue">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logos/logo-no-background.png" alt="Logo" style="max-width: 150px;">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/images.jfif" class="d-block w-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/quais-sao-os-tipos-de-yoga.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/a-carreira-do-farmacêutico-hematologista-ictq-pos-graduação-farmacêutica.jpg" class="d-block w-100" alt="Imagem 3">
+        </div>
+    </div>
+</div>
+
+<section id="sobre" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Sobre Nós</h2>
+        <p>Nossa academia oferece programas de treinamento personalizados para ajudar você a atingir seus objetivos de fitness.</p>
+    </div>
+</section>
+
+
+<section id="servicos" class="bg-yellow py-5">
+    <div class="container">
+        <h2 class="text-center">Nossos Serviços</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="modalidades.html" class="text-decoration-none">
+                    <div class="card h-100 d-flex flex-column justify-content-center">
+                        <img src="assets/Capa-esporte-h10-800x445.jpg" class="card-img-top" alt="Serviço 1" style="height: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Modalidades</h5>
+                            <p class="card-text">Experimente outros tipos de atividades além da clássica musculação!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="planos.html" class="text-decoration-none">
+                    <div class="card h-100 d-flex flex-column justify-content-center">
+                        <img src="assets/istockphoto-1028268374-170667a.jpg" class="card-img-top" alt="Serviço 2" style="height: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Planos</h5>
+                            <p class="card-text">Garanta sua mensalidade e faça parte da equipe!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="nutricao.html" class="text-decoration-none">
+                    <div class="card h-100 d-flex flex-column justify-content-center">
+                        <img src="assets/nutricao-personalizada-posunip_11185.jpg" class="card-img-top" alt="Serviço 3" style="height: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Nutrição Personalizada</h5>
+                            <p class="card-text">Obtenha orientações nutricionais personalizadas para alcançar seus objetivos.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section id="contato" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Entre em Contato</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <p>Entre em contato conosco para mais informações sobre nossos serviços.</p>
+                <!-- Conteúdo do seu site aqui -->
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+</body>
+
